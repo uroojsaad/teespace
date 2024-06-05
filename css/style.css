@@ -1,0 +1,2048 @@
+/*FONTS-LINKS*/
+@font-face {
+  font-family: "PlusJakarta-Medium";
+  src: url(../fonts/PlusJakartaSans-Medium.woff),
+    url(../fonts/PlusJakartaSans-Medium.woff2);
+  font-weight: 500px;
+}
+@font-face {
+  font-family: "PlusJakarta-Bold";
+  src: url(../fonts/PlusJakartaSans-Bold.woff),
+    url(../fonts/PlusJakartaSans-Bold.woff2);
+  font-weight: 700px;
+}
+
+/* UNIVERSAL SELECTORS */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+/* CONTAINER */
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+}
+
+body {
+  padding-top: 80px;
+}
+/* HEADER */
+.gf-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-image: linear-gradient(to right, #c8e9d2, #3db57b);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 1px solid #cac9c9;
+}
+.gf-menu ul {
+  display: inline-flex;
+}
+.gf-menu ul li {
+  list-style: none;
+  padding: 10px 20px 0px 20px;
+}
+.gf-menu ul li > a {
+  text-decoration: none;
+  color: black;
+  font-family: "PlusJakarta-Bold";
+  font-size: 20px;
+}
+.gf-menu ul li > a:hover {
+  color: white;
+}
+.gf-hotline h4 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 18px;
+  padding-bottom: 5px;
+  color: #696868;
+}
+.gf-hotline a {
+  font-family: "PlusJakarta-Bold";
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+.gf-hotline a:hover {
+  color: white;
+}
+
+/*HERO-SECTION*/
+.gf-herosection {
+  display: flex;
+  justify-content: center;
+  padding: 40px 40px 40px 100px;
+}
+.gf-left-part {
+  /* padding-left: 10px;
+    padding-right: 5px; */
+  /* margin: 10px 50px; */
+}
+.gf-purple {
+  background-color: rgba(177, 115, 217, 15%);
+  border-radius: 40px;
+  width: 180px;
+  height: 41px;
+  text-align: center;
+  padding-top: 9px;
+}
+
+.gf-purple p {
+  font-family: "PlusJakarta-Bold";
+  font-size: 18px;
+  color: rgb(177, 115, 217);
+}
+
+.gf-left-part h1 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 68px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.gf-greencurve {
+  position: absolute;
+  top: 230px;
+  left: 310px;
+}
+.gf-left-part p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.gf-leftlist li {
+  font-family: "PlusJakarta-Bold";
+  font-size: 16px;
+  list-style-image: url(../images/gr-check-mark.svg);
+  padding-bottom: 7px;
+  padding-left: 7px;
+}
+
+.gf-WeWork {
+  display: inline-flex;
+  align-items: center;
+  /* padding-bottom: 5px;
+    padding-top: 5px; */
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.gf-work {
+  padding-top: 0px;
+  padding-right: 10px;
+}
+.gf-work > h4 a {
+  text-decoration: none;
+  font-family: "PlusJakarta-Bold";
+  font-size: 18px;
+  color: black;
+  padding-left: 10px;
+}
+.gf-work :hover {
+  color: #2ebb77;
+}
+.gf-work-img {
+  width: 40px;
+  height: 40px;
+  padding-top: 7px;
+  padding-right: 10px;
+}
+.DesignTips {
+  padding-top: 50px;
+  text-align: center;
+}
+.DesignTips > h2 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 24px;
+}
+.DesignTips p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "PlusJakarta-Medium";
+  font-size: 16px;
+}
+.serviceVideosEmbeded {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.gf-plus {
+  display: flex;
+}
+.gf-fourplus {
+  padding-right: 65px;
+}
+.gf-fourplus h4 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 48px;
+  display: flex;
+}
+#counterone::after {
+  content: "K+";
+  font-family: "PlusJakarta-Bold";
+  font-size: 48px;
+  display: flex;
+}
+
+.gf-fourplus p {
+  font-family: "PlusJakarta-Bold";
+  font-size: 18px;
+}
+.gf-nineplus {
+  padding-left: 35px;
+}
+.gf-nineplus h4 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 48px;
+  display: flex;
+}
+#countertwo::after {
+  content: "K+";
+  font-family: "PlusJakarta-Bold";
+  font-size: 48px;
+  display: flex;
+}
+.gf-nineplus p {
+  font-family: "PlusJakarta-Bold";
+  font-size: 18px;
+}
+.gf-line-div {
+  height: 62px;
+  width: 1px;
+  background-color: #cccccc;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.gf-right-part {
+  /* padding-left: 20px;
+padding-right: 20px;
+ */
+}
+
+.gf-right-part > img {
+  width: 600px;
+}
+.gf-embed {
+  background-color: #c8e9d2;
+}
+.embedVideo {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+.embedVideo > iframe {
+  width: 800px;
+  height: 500px;
+}
+
+/*SECOND SECTION*/
+.gf-second-section {
+  max-width: 1920px;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 25px 50px;
+  overflow: hidden;
+}
+.gf-custom h2 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 24px;
+}
+.gf-items {
+  padding-top: 30px;
+}
+
+/*THIRD SECTION*/
+.gf-third-section {
+  text-align: center;
+  margin: 50px 90px;
+}
+.gf-createCustom h2 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.gf-createCustom > p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.gf-stepcustom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gf-step-describe {
+  width: 450px;
+  text-align: justify;
+}
+.gf-step-describe h4 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 32px;
+}
+.gf-step-describe p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.gf-number {
+  width: 236px;
+}
+
+.gf-number img {
+  width: 56px;
+}
+.gf-step-pic img {
+  width: 430px;
+}
+/*FOURTH-SECTION*/
+.gf-fourthsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+  background-color: #f5f5f5;
+}
+.gf-freeway {
+  width: 740;
+}
+.gf-easyway {
+  width: 570px;
+}
+.gf-easyway h2 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 48px;
+  padding-bottom: 10px;
+}
+.gf-easyway p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 18px;
+  padding-bottom: 10px;
+  line-height: 27px;
+}
+.gf-freeanchor {
+  background-color: #2ebb77;
+  border-radius: 12px;
+  width: 181px;
+  padding: 10px;
+  text-align: center;
+}
+.gf-freeanchor a {
+  font-family: "PlusJakarta-Bold";
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.gf-freeanchor a:hover {
+  color: black;
+}
+
+/*FIFTH-SECTION*/
+.gf-fifthsection {
+  background-color: #f5f5f5;
+  padding: 50px 30px;
+  text-align: center;
+}
+.gf-fifthheading h2 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 48px;
+  padding-bottom: 10px;
+}
+.gf-fifthheading p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 18px;
+  padding-bottom: 10px;
+  line-height: 27px;
+}
+
+.gf-fifthcontent {
+  display: flex;
+  justify-content: center;
+}
+.gf-fifthright {
+  width: 900px;
+  padding-top: 50px;
+}
+.gf-fifthleft {
+  margin-top: 180px;
+  width: 350px;
+  border: none;
+  background-color: #f5f5f5;
+}
+.gf-fifthleft h4 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 20px;
+  padding-bottom: 10px;
+  background-color: #f5f5f5;
+}
+.gf-accordian p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 14px;
+  padding-bottom: 9px;
+  background-color: white;
+}
+#accordion > h4:hover {
+  background-color: #c8e9d2;
+  color: black;
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+  background-image: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+  color: black;
+  /* background-color: #f5f5f5d9; */
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+  border: none;
+  color: #2ebb77;
+  /* background-color: #F5F5F5; */
+  /* align-items: left; */
+}
+body main .ui-accordion .ui-accordion-content {
+  border-radius: 20px;
+}
+body .ui-accordion-header-icon .ui-icon .ui-icon-triangle-1-e {
+}
+
+/*SLIDER-SECTION*/
+.gf-slider {
+  background-image: url(../images/sliderbackgrnd.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+  padding: 50px 80px 25px 80px;
+}
+.gf-whatPeopleSay {
+  text-align: center;
+}
+.gf-whatPeopleSay h2 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+.gf-whatPeopleSay p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 16px;
+  padding-bottom: px;
+}
+body section .gf-three-boxes {
+  display: flex;
+  padding: 20px 120px;
+}
+.slick-slide {
+  margin: 30px 10px;
+}
+.slick-dots {
+  bottom: 8px;
+}
+
+.gf-content-box {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #7e7e7e;
+  background-color: white;
+}
+
+.gf-people {
+  display: flex;
+  justify-content: center;
+}
+.gf-people img {
+  border-radius: 50%;
+  width: 80px;
+  height: 81px;
+}
+.gf-content-box > h4 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.gf-content-box p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.gf-dashes {
+  display: flex;
+  justify-content: center;
+}
+/* body main .slick-next:before  {
+    font-size: 20px;
+    content: '';
+    color: purple;
+    
+}
+body main .slick-prev:before {
+    font-size: 20px;
+    content: '<';
+    color: purple; }*/
+
+body .slick-dots li button:before {
+  font-size: 30px;
+  color: purple;
+}
+.slick-dots li {
+  right: 100px;
+}
+/* LAST-SECTION PURPLE */
+
+.gf-lastsection {
+  background-image: url(../images/beforefooter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.gf-vacations {
+  align-items: center;
+}
+.gf-lastsection h2 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 48px;
+  text-align: center;
+}
+
+.gf-lastsection p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.gf-lastbutton {
+  background-color: #2ebb77;
+  border-radius: 12px;
+  width: 160px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 190px;
+}
+
+.gf-lastbutton a {
+  font-family: "PlusJakarta-Bold";
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.gf-lastbutton a:hover {
+  color: black;
+}
+
+/* FOOTER*/
+.gf-footer {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.gf-footerlogo p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 12px;
+}
+.gf-footerlogo p > a {
+  text-decoration: none;
+  color: black;
+  font-family: "PlusJakarta-Medium";
+  font-size: 12px;
+}
+.gf-footerlist h4 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 14px;
+  padding-top: 10px;
+}
+.gf-footerlist ul li {
+  list-style: none;
+}
+.gf-footerlist ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "PlusJakarta-Medium";
+  font-size: 12px;
+}
+.gf-footerSocial {
+  display: inline-block;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.gf-copyright {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/*########################################################################*/
+/* ABOUT-US */
+* Section header Styles gray*/ #home-about-section {
+  background-color: #f5f5f5;
+  padding: 20px; /* Add padding for some spacing */
+  text-align: center; /* Centers the content */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#home-about-section .home-link {
+  color: #7e7e7e;
+  text-decoration: none; /* Removes underline from links */
+  margin-right: 10px; /* Adds some space between the links */
+  font-size: 15px; /* Adjust the font size as required */
+  font-family: "PlusJakarta-Medium";
+  font-weight: 500px; /* Apply medium font-weight */
+}
+#home-about-section .divider {
+  background-image: url("./images/divider.png"); /* Replace with your image's path */
+  background-size: contain; /* Contain the background size within the element */
+  background-repeat: no-repeat; /* Do not repeat the background */
+  width: 20px; /* Width of the image, adjust as needed */
+  height: 20px; /* Height of the image, adjust as needed */
+  display: inline-block; /* Allow span to have width and height */
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+#home-about-section .about-link {
+  color: #000000;
+  text-decoration: none; /* Removes underline from links */
+  font-size: 15px; /* Adjust the font size as required */
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+}
+
+#home-about-section .home-link:hover {
+  text-decoration: underline; /* Adds underline on hover for better UX */
+}
+#home-about-section .about-link:hover {
+  text-decoration: underline; /* Adds underline on hover for better UX */
+}
+/*##*/
+/* Section 1 Styles custom tee-shirt */
+
+/* Ensure the container is centered and has the specified width and height */
+
+.custom-tshirt-section {
+  display: flex;
+  gap: 20px;
+  max-width: 1440px;
+  /* height: 800px; you can adjust accordingly */
+  margin: 0 auto; /* you can adjust accordingly*/
+  padding: 50px;
+}
+.custom-tshirt-info {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 46%;
+}
+.custom-tshirt-content {
+  display: flex;
+  margin-top: 35px;
+  flex-direction: column;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+  line-height: 1;
+  padding: 0 20px;
+}
+.custom-tshirt-tag {
+  justify-content: center;
+  border-radius: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(180, 121, 217, 0.15);
+  align-self: start;
+  color: #b479d9;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  line-height: 140%;
+  padding: 15px 18px 9px;
+}
+.custom-tshirt-heading {
+  margin-top: 30px;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+}
+.custom-tshirt-subheading {
+  margin-top: 13px;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  /* background-image: url("./images/linearbg.png"); */
+  background-size: contain;
+  /* padding: 0 10px; */
+  display: inline-block;
+  color: black;
+  width: 33%;
+  background: rgb(188, 185, 132);
+  background: rgb(177, 241, 179);
+  background: linear-gradient(
+    148deg,
+    rgba(177, 241, 179, 1) 35%,
+    rgba(243, 238, 194, 1) 75%
+  );
+}
+.custom-tshirt-description {
+  color: #7e7e7e;
+  line-height: 32px;
+  margin-top: 34px;
+}
+.custom-tshirt-feature {
+  display: flex;
+  margin-top: 20px;
+  gap: 15px;
+}
+.custom-tshirt-feature-icon {
+  /* aspect-ratio: 1; */
+  object-fit: auto;
+  object-position: center;
+  width: 20px;
+}
+.custom-tshirt-feature-text {
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+  font-size: 18px;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  line-height: 1.2;
+}
+.custom-tshirt-cta {
+  justify-content: center;
+  border-radius: 12px;
+  background-color: #2ebb77;
+  align-self: start;
+  margin-top: 49px;
+  color: #fff;
+  text-align: center;
+  padding: 22px 46px;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  border: none;
+}
+.custom-tshirt-image-container {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 54%;
+}
+.custom-tshirt-image {
+  /* aspect-ratio: 0.9; */
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  flex-grow: 1;
+}
+a {
+  text-decoration: none;
+}
+/*##*/
+
+/*section 2* fast quality service*/
+.section-2-text {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  height: 17vh; /* Adjust this if you want a different height */
+  text-align: center; /* Ensures text within is centered */
+}
+
+.Fast-and-Quality-Service {
+  display: inline-flex; /* Aligns content and self-adjusts to content width */
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: rgba(180, 121, 217, 0.15);
+  color: #b479d9;
+  padding: 12px 19px;
+  font-weight: 700px; /* Bold font */
+  font-family: "PlusJakarta-Bold";
+  font-size: 18px; /* Font size 18px */
+  line-height: 140%; /* Line height 140% */
+  margin-bottom: 9px; /* Adds space below the button */
+}
+
+.T-shirt-printing-made-easy {
+  color: #000;
+  font-size: 40px; /* Font size 40px */
+  line-height: 130%; /* Line height 130% */
+  font-weight: 700px; /* Bold font */
+  font-family: "PlusJakarta-Bold";
+
+  /* max-width: 288px; */
+}
+.graphic-design-services {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+  gap: 20px;
+  padding: 50px;
+}
+.graphic-design-image-container {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+
+  margin-left: 0;
+}
+/* .graphic-design-image {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  flex-grow: 1;
+} */
+.graphic-design-services-list {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  width: 42%;
+  margin-left: 20px;
+}
+#graphic-accordion-container {
+  display: flex;
+  padding-top: 30px;
+  margin-top: 90px;
+  flex-direction: column;
+  font-size: 20px;
+  color: #000;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  padding: 20px;
+}
+#graphic-accordion-container p {
+  height: 135px;
+}
+
+#graphic-accordion-container .ui-accordion-header-icon {
+  display: none !important;
+}
+body .ui-accordion .ui-accordion-header {
+  display: flex;
+  justify-content: start;
+}
+#graphic-accordion-container .ui-accordion-header-active {
+  background-color: #2ebb77; /* Green background for active header */
+  color: #fff; /* White text for active header */
+  /* margin: 12px;
+  padding: 9px 15px; */
+}
+#graphic-accordion-container .ui-accordion-content-active {
+  line-height: 25px;
+  padding-left: 8px;
+  height: 127px;
+}
+
+/* Hover effect on accordion headers */
+.ui-accordion-header:hover {
+  background-color: #2ebb77; /* Green background on hover */
+  color: #fff; /* White text on hover */
+  border-radius: 12px;
+  /* margin: 12px;
+  padding: 9px 15px; */
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.04);
+}
+
+.ui-accordion-header:hover .branding-services-icon {
+  filter: invert(1);
+}
+
+.graphic-design-services-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 7px 16px;
+  margin: 0px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.04);
+  background-color: #f5f5f5;
+  color: black;
+}
+.graphic-design-services-title {
+  flex-grow: 1;
+  flex-basis: auto;
+  font-size: 18px;
+}
+.graphic-design-services-icon {
+  width: 15px;
+  height: 15px;
+  align-self: center;
+}
+.graphic-design-services-description {
+  color: #7e7e7e;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+}
+.printing-services-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 7px 16px;
+  margin: 0px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.04);
+  background-color: #f5f5f5;
+  color: black;
+}
+.printing-services-title {
+  flex-grow: 1;
+  flex-basis: auto;
+  font-size: 18px;
+}
+.printing-services-icon {
+  width: 15px;
+  height: 15px;
+  align-self: center;
+}
+.printing-services-description {
+  color: #7e7e7e;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+}
+.pod-services-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 7px 16px;
+  margin: 0px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.04);
+  background-color: #f5f5f5;
+  color: black;
+}
+.pod-services-title {
+  flex-grow: 1;
+  flex-basis: auto;
+  font-size: 18px;
+}
+.pod-services-icon {
+  width: 15px;
+  height: 15px;
+  align-self: center;
+}
+.pod-services-description {
+  color: #7e7e7e;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+}
+.branding-services-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 7px 16px;
+  margin: 0px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.04);
+  background-color: #f5f5f5;
+  color: black;
+}
+.branding-services-title {
+  flex-grow: 1;
+  flex-basis: auto;
+  font-size: 18px;
+}
+.branding-services-icon {
+  width: 15px;
+  height: 15px;
+  align-self: center;
+  transition: 0.5s;
+}
+.branding-services-description {
+  color: #7e7e7e;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+}
+/*#*/
+/* section 3*/
+
+.section-3-text {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  /* height: 24vh; */
+  /* Adjust this if you want a different height */
+  text-align: center; /* Ensures text within is centered */
+  margin: 10px 0px 0px 0px;
+  padding-top: 10px;
+}
+
+.join-us-today {
+  display: inline-flex; /* Aligns content and self-adjusts to content width */
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: rgba(180, 121, 217, 0.15);
+  color: #b479d9;
+  padding: 12px 19px;
+  font-weight: 700px; /* Bold font */
+  font-family: "PlusJakarta-Bold";
+  font-size: 18px; /* Font size 18px */
+  line-height: 140%; /* Line height 140% */
+  margin-bottom: 20px; /* Adds space below the button */
+}
+
+.meet-our-team {
+  color: #000;
+  font-size: 40px; /* Font size 40px */
+  line-height: 130%; /* Line height 130% */
+  font-weight: 700px; /* Bold font */
+  font-family: "PlusJakarta-Bold";
+  max-width: 304px; /* Maximum width */
+}
+.team-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1039px;
+  /* margin: auto; */
+  padding: 40px;
+  gap: 20px;
+}
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.3s ease;
+}
+.team-member:hover {
+  transform: scale(1.05);
+}
+.member-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.member-name {
+  font-size: 18px;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  margin: 5px 0;
+}
+.member-role {
+  font-size: 16px;
+  color: #555;
+}
+.join-us-today {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: rgba(180, 121, 217, 0.15);
+  color: #b479d9;
+  padding: 12px 19px;
+}
+.team-heading {
+  color: #000;
+  text-align: center;
+  max-width: 288px;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+}
+
+/* section 4*/
+.section-background {
+  background-image: url("../images/icon-banner.png"); /* Replace with actual path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 250px 10px 100px 10px;
+  margin-top: 20px;
+  /* height: 473px; */
+  /* Adjust the height as needed or keep it auto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center text alignment */
+}
+
+/* <h2> Styles */
+.section-background h2 {
+  margin: 0; /* Remove default margin */
+  padding: 0.5em 0; /* Add some vertical padding */
+}
+
+/* First <h2> with bold font-weight */
+.section-background h2:first-of-type {
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  font-size: 2em; /* Adjust font-size as needed */
+  margin-bottom: 0.25em; /* Space between the two h2 elements */
+}
+
+/* Second <h2> with medium font-weight */
+.section-background h2:nth-of-type(2) {
+  font-weight: 500px; /* Medium font-weight, make sure it's loaded */
+  font-family: "PlusJakarta-Medium";
+  font-size: 1.5em; /* Adjust font-size as needed */
+}
+
+/* Button styles */
+.section-background .button {
+  background-color: #04aa6d; /* Adjust button background color */
+  color: #ffffff; /* Text color - white */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for the button */
+  padding: 10px 20px; /* Padding inside the button */
+  font-weight: 700px; /* Bold font weight */
+  font-family: "PlusJakarta-Bold";
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor indicates a clickable item */
+  margin-top: 1em; /* Space above the button */
+}
+
+.section-background .button:hover {
+  background-color: #037d56; /* Slightly darker shade on hover */
+}
+/*section 5*/
+.printing-value::after,
+.items-amount::after,
+.sales-value::after,
+.team-amount::after {
+  content: "→";
+}
+.printing-value::after,
+.items-amount::after,
+.sales-value::after,
+.team-amount::after {
+  content: "" !important;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 78px 60px;
+  background-color: #f8f8f8;
+}
+
+.stats-container {
+  width: 1300px;
+  max-width: 100%;
+}
+
+.stats-row {
+  display: flex;
+  gap: 20px;
+}
+
+.stats-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+  width: 25%;
+  margin-left: 0;
+  padding: 15px;
+}
+.stats-column button {
+  margin: 0 auto;
+}
+.stats-column p {
+  margin-top: 10px; /* Adjust based on desired space between button and p */
+  margin-bottom: 10px; /* Adjust based on desired space around the p element */
+  text-align: center; /* Center-align the text */
+  color: #7e7e7e; /* Example color */
+  font-size: 18px; /* Example font size */
+  /* Reset horizontal margins to ensure it's centered with equal alignment */
+  margin-left: 0;
+  margin-right: 0;
+  /* This ensures the text has space around it evenly. Adjust padding as necessary. */
+  padding: 0 10px;
+}
+
+.printing-equipment {
+  display: flex;
+  flex-direction: column;
+}
+
+.printing-value {
+  display: flex;
+  gap: 0;
+  font-size: 40px;
+  color: #2ebb77;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  white-space: nowrap;
+  line-height: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.dollar-sign {
+  text-align: right;
+  font-family: "PlusJakarta-Bold";
+}
+
+.printing-amount {
+  flex-grow: 0;
+  flex-basis: auto;
+  margin: auto 0;
+}
+
+.printing-description {
+  color: #7e7e7e;
+  margin-top: 20px;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+}
+
+.items-delivered {
+  display: flex;
+  /* margin-top: 4px; */
+  flex-direction: column;
+}
+
+.items-amount {
+  color: #2ebb77;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.items-description {
+  color: #7e7e7e;
+  margin-top: 23px;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+}
+
+.customer-sales {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.sales-value {
+  display: flex;
+  gap: 0;
+  font-size: 40px;
+  color: #2ebb77;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  white-space: nowrap;
+  line-height: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.sales-amount {
+  flex-grow: 1;
+  margin: auto 0;
+  text-align: left;
+}
+
+.sales-description {
+  color: #7e7e7e;
+  margin-top: 19px;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+}
+
+.team-size {
+  display: flex;
+  margin-top: 4px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.team-amount {
+  color: #2ebb77;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  font-size: 40px;
+}
+
+.team-description {
+  color: #7e7e7e;
+  margin-top: 23px;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+}
+/* section 6*/
+
+.custom-section-last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/main-green.png"); /* Replace with your background image */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 50px; /* Adjust padding as needed */
+  /* height: auto; Adjust height as needed */
+}
+
+.right-content img {
+  width: 67%; /* or a specific width */
+  height: auto; /* height set to auto will maintain the aspect ratio */
+  object-fit: contain; /* This will cover the container with the image, cropping it if necessary */
+  margin-left: 99px;
+}
+
+.content-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100%; /* Full width of the section */
+  max-width: 1440px; /* Maximum width of the content container */
+}
+
+.left-content {
+  width: 50%; /* Adjust based on your design */
+}
+
+.left-content h2 {
+  font-size: 48px;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  color: #fff;
+
+  /* Add other font styles as needed */
+}
+
+.left-content p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500px;
+  font-family: "PlusJakarta-Medium";
+  margin-top: 18px;
+}
+.button-container {
+  display: flex;
+  justify-content: start;
+}
+
+.BUTTON {
+  background-color: white;
+  color: black;
+  border: none;
+  margin-top: 47px;
+  border-radius: 12px;
+  padding: 13px 30px;
+  margin-right: 10px;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  font-size: 15px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.BUTTON > a {
+  text-decoration: none;
+  color: black;
+}
+.items-amount {
+  font-size: 40px;
+}
+
+.BUTTON::after {
+  content: "→"; /* Arrow icon (can be replaced with an actual icon) */
+  display: inline-block;
+  margin-left: 8px; /* Space between text and icon */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.BUTTON:hover::after {
+  transform: translateX(5px); /* Move the arrow on hover */
+}
+
+.BUTTON:last-child {
+  margin-right: 0; /* No margin on the right of the last button */
+}
+
+/*#################################################################################3*/
+/* SERVICES */
+/* FIRST SECTION */
+.sez-section-quality h2 {
+  width: 468px;
+  height: 52px;
+  padding-top: 20px;
+  left: 726px;
+  font-family: "PlusJakarta-Bold";
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  padding: 0px 50px 50px 50px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.sez-text {
+  font-family: "PlusJakarta-Medium";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 50px;
+}
+.sez-para p {
+  /* width: 290px; */
+  /* text-align: center; */
+  margin-bottom: 10px;
+  font-family: "PlusJakarta-Medium";
+  font-size: 10px;
+  color: #7e7e7e;
+  line-height: 27px;
+}
+.sez-check h3 {
+  font-family: "PlusJakarta-Medium";
+  /* padding-left: 20px; */
+}
+.sez-check {
+  width: calc(100% / 5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.sez-check img {
+  /* margin-left: 10px; */
+  align-self: center;
+  padding-bottom: 10px;
+}
+/* .sez-check p{
+    lfont-family: 'PlusJakarta-Medium';
+} */
+.sez-check h3 {
+  padding-bottom: 10px;
+}
+.sez-contentcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+/* SECOND SECTION */
+.sez-section-tshirt {
+  background-color: #f5f5f5;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  /* overflow-x: hidden; */
+}
+.sez-service {
+}
+.sez-section-tshirt h6 {
+  width: 50%;
+  font-family: "PlusJakarta-Bold";
+  font-size: 18px;
+  color: #b479d9;
+  border-radius: 40px;
+  background-color: rgba(180, 121, 217, 15%);
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  padding: 5px 0px;
+}
+.sez-section-tshirt h2 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.sez-service h2 > span {
+  /* background-image: url(../images/linearbg.png);
+  background-position: bottom; */
+}
+.sez-design {
+  display: flex;
+  justify-content: center;
+}
+.sez-graphics {
+  width: 380px;
+  padding: 20px 10px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 1px 1px 0 0 #7e7e7e;
+}
+.sez-graphics img {
+  width: 320px;
+  margin-left: 10px;
+  border-radius: 12px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.sez-paragraph {
+  font-family: "PlusJakarta-Medium";
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #7e7e7e;
+}
+.sez-design h5 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/* THIRD SECTION */
+
+.sez-shirts {
+  width: 216px;
+  height: 40px;
+  font-family: "PlusJakarta-Medium";
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 1px;
+  margin: auto;
+  padding-bottom: 20px;
+  margin-top: 60px;
+}
+
+.sez-shirts img {
+  margin-left: 50px;
+  display: flex;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* LAST SECTION */
+.sez-last-section {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  margin-bottom: 1px;
+}
+
+.sez-last-section h2 {
+  color: #000;
+}
+.sez-left-col {
+  width: 400px;
+  padding-right: 40px;
+  /* padding-left: 20px; */
+}
+.sez-last-para {
+  font-size: 15px;
+  color: #7e7e7e;
+  padding-top: 20px;
+}
+.sez-last-para h2 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 40px;
+}
+.sez-last-para p {
+  padding-top: 15px;
+  font-family: "PlusJakarta-Medium";
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.sez-shop-now {
+  width: 120px;
+  border-radius: 12px;
+  background-color: #2ebb77;
+  margin-top: 10px;
+  padding: 10px 15px;
+  /* margin-bottom: 10px; */
+}
+.sez-shop-now a {
+  text-decoration: none;
+  font-family: "PlusJakarta-Bold";
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.sez-shop-now a:hover {
+  color: black;
+}
+.sez-pics {
+  width: 240px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 15px 15px 20px;
+}
+.sez-pics img {
+  width: 56px;
+  padding-bottom: 10px;
+}
+.sez-pics h3 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.sez-parah p {
+  text-align: start;
+  font-family: "PlusJakarta-Medium";
+  font-size: 14px;
+  line-height: 27px;
+  color: #7e7e7e;
+}
+.sez-right-col {
+  /* width: 870px; */
+  /* display: flex;
+    flex-wrap: wrap; */
+  /* gap:20px; */
+}
+.sez-rightfirst {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.sez-last-banner {
+  width: 750px;
+  background-image: url(../images/sez-lastbanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  border-radius: 12px;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+  text-align: start;
+}
+.sez-last-banner h6 {
+  font-family: "PlusJakarta-Bold";
+  font-size: 24px;
+}
+.sez-last-banner p {
+  font-family: "PlusJakarta-Medium";
+  font-size: 18px;
+  color: #696868;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.sez-order {
+  width: 200px;
+  border-radius: 12px;
+  background-color: #2ebb77;
+  margin-top: 10px;
+  padding: 10px 15px 10px 23px;
+}
+.sez-order a {
+  text-decoration: none;
+  font-family: "PlusJakarta-Medium";
+  color: #fff;
+  text-align: center;
+}
+.sez-order a:hover {
+  color: black;
+}
+
+/*GalleryPractice*/
+.imggalleryhead {
+  text-align: center;
+  font-family: "PlusJakarta-Bold";
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.img-gallery {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.example-image {
+  width: 250px;
+  height: 250px;
+}
+.imagesSec {
+  width: fit-content;
+  margin: auto;
+  border: 5px solid #eee;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.imagesSec img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px 5px #ccc;
+}
+
+.imagesSec img:hover {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+
+.fullScreen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  padding: 0 100px;
+}
+
+#maximizedImg {
+  margin: auto;
+  width: 200px;
+  height: 300px;
+  transform: scale(1.8, 1.8);
+  border-radius: 10px;
+}
+
+#nextIcon {
+  height: fit-content;
+
+  font-size: 100px;
+
+  margin: auto 0;
+  z-index: 1;
+}
+
+#prevIcon {
+  height: fit-content;
+  font-size: 100px;
+  margin: auto 0;
+  z-index: 1;
+}
+
+#cancelIcon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.fullScreen i {
+  color: #979797;
+}
+.fullScreen i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/*############################################################################*/
+
+/* CONTACT-US */
+/* form section*/
+#submit-form::after {
+  content: "\2192"; /* This is the Unicode escape sequence for '→' */
+}
+
+.form-section {
+  background-image: url("../images/form-bg.png");
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.error {
+  color: red;
+}
+#contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 46px 20px; /* Adding some padding on the sides */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #2ebb77;
+  border-radius: 7px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #000;
+  background-color: white;
+  font-family: "PlusJakarta-Bold";
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #7e7e7e;
+}
+
+body #submit-form {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b479d9;
+  color: #ffff;
+  font-size: 18px;
+  font-family: "PlusJakarta-Bold";
+  cursor: pointer;
+}
+
+#submit-form:hover {
+  background-color: #a262c0;
+}
+.form-section h2 {
+  color: #000; /* Assuming you want the titles in black */
+  text-align: center;
+  margin-bottom: 30px; /* Add some space below the heading */
+  font-size: 1.5rem;
+  font-family: "PlusJakarta-Bold";
+}
+/* gallary slider TEMPLATE##############*/
+.design-template-slider {
+  text-align: center;
+  background-color: rgba(180, 121, 217, 0.15);
+  overflow: hidden;
+  /* max-width: 1529px; */
+}
+
+.design-template-slider h2 {
+  color: #000000;
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+  padding: 30px 0;
+}
+
+.slider {
+  overflow: hidden;
+  /* white-space: nowrap; */
+}
+
+.slidetrack {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.slider img {
+  height: 150px;
+  width: auto;
+  margin: 0 15px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.parent-view-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-all {
+  background-color: #b479d9;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
+}
+.view-all a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: PlusJakarta-bold;
+}
+
+.view-all:hover {
+  background-color: #2ebb77;
+}
+.integration-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #ffff;
+}
+.parent-integration-text-btn {
+  display: flex;
+  justify-content: center; /* Centers children horizontally */
+  align-items: center;
+  margin-top: 31px;
+}
+
+.integration-text-btn {
+  background-color: #b479d9;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
+  font-family: PlusJakarta-bold;
+}
+.integration-text-btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.integration-text-btn:hover {
+  background-color: #2ebb77;
+}
+
+.integration-text h2 {
+  font-weight: 700px;
+  font-family: "PlusJakarta-Bold";
+}
+
+.integration-text h2,
+.integration-text button {
+  margin-bottom: 20px;
+}
+
+.integration-logos {
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  width: 100%;
+}
+
+.integration-slider {
+  display: flex;
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.integration-logos img {
+  height: 50px; /* Adjust based on actual logo sizes */
+  margin-right: 20px; /* Space between logos */
+  vertical-align: middle; /* Align logos vertically */
+}
+
+/* Last logo margin fix might not be needed due to infinite loop, but keeping just in case */
+.integration-logos img:last-child {
+  margin-right: 0;
+}
+
+.integration-text button {
+  background-color: #b479d9; /* Purple background */
+  color: #ffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.integration-text button:hover {
+  background-color: #a262c0; /* Slightly darker purple on hover */
+}
+
+/*###################################################3*/
+.faq-section {
+  padding: 40px;
+  margin: 5px 35px;
+  color: #0000;
+  background: linear-gradient(
+    rgba(180, 121, 217, 0.15),
+    rgba(180, 121, 217, 0.15)
+  );
+}
+.faq-section h2 {
+  color: #000; /* Assuming you want the titles in black */
+  text-align: center;
+  margin-bottom: 30px; /* Add some space below the heading */
+  font-size: 2.5rem;
+}
+.faq-section h2 + p {
+  text-align: center;
+  color: #808080;
+  margin-top: 10px;
+  margin-bottom: 23px;
+}
+
+#accordion-FAQs {
+  max-width: 800px;
+  margin: auto;
+}
+
+#accordion-FAQs h3 {
+  padding: 15px;
+  background-color: #2ebb77;
+  color: #ffff;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+#accordion-FAQs h3:hover {
+  background-color: #26a569; /* Darker shade for hover state */
+}
+
+#accordion-FAQs div {
+  background-color: #ffff;
+  padding: 15px;
+  border: 2px solid #2ebb77;
+}
+
+#accordion-FAQs div p {
+  color: #000000;
+}
